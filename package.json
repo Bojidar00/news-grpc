@@ -1,0 +1,30 @@
+{
+  "name": "grpc-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node client.js",
+    "test": "vitest",
+    "lint": "eslint --fix .",
+    "lint:ci": "eslint .",
+    "prettier": "prettier --write .",
+    "prettier:ci": "prettier ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.9.12",
+    "@grpc/proto-loader": "^0.7.10",
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.3.0",
+    "vitest": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.1.0"
+  }
+}
